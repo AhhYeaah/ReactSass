@@ -1,0 +1,12 @@
+.sidebar{
+    background-color: #333;
+    height: 160vh;
+    grid-area: sidebar;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.sidebar:hover{
+    overflow-y: auto;
+   
+}
