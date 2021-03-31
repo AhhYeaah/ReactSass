@@ -10,9 +10,7 @@ import Logo from '../Logo/Logo';
 export default function Sidebar(props) {
     return (
         <section className={'sidebar'}>
-            <div>
-                <Logo></Logo>
-            </div>
+                <Logo></Logo>      
         </section>
     )
 }

@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import Option from './Option.js';
+import Sidebar from './Sidebar.js';
 
 test('renders learn react link', () => {
-  render(<Option />);
+  render(<Sidebar />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });

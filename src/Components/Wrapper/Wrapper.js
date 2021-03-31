@@ -9,9 +9,8 @@ import Dashboard from '../Dashboard/Dashboard';
 export default function Wrapper(props) {
     return (
         <section className={'wrapper'}>
-            <Sidebar/>
+            <Sidebar></Sidebar>
             <Dashboard></Dashboard>
-            
         </section>
     )
 }
