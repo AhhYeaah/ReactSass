@@ -21,10 +21,10 @@ import Wrapper from './Components/Wrapper/Wrapper';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Wrapper />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+      <Wrapper />
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
